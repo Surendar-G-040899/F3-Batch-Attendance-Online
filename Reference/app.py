@@ -1,7 +1,7 @@
 from flask import Flask,render_template,request,flash,url_for,redirect,jsonify
 import face_recognition
-import numpy as np
 import json
+import numpy as np
 import time
 import cv2
 
