@@ -57,7 +57,7 @@ known_face_names = [
 #---------------------------Define Global Attendance Dictionary--------------------
 def Initial_set():
     for names in known_face_names:
-        student_attendance[names]=[[1,1,1],"present"] #change for attendance
+        student_attendance[names]=[[0,0,0],"absent"] #change for attendance
 
     # Set Unknown intimation for error correction (Faces)
     student_attendance["Unknown"]=[[0,0,0],"absent"]
